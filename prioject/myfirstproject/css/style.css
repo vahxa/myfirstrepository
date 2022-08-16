@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+}
+.wrapper {
+    display: flex;
+    max-width: 980px;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header_second_block {
+    background-color:#777777;
+    width: 279px;
+    height: 108px;
+    margin: 0 20px;
+}
+.header_third_block {
+    background-color:#777777;
+    width: 513px;
+    height: 108px;
+}
+.header_third_block ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: underline;
+}
+.site_creation {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+.site_creation_text {
+    width: 184px;
+    background-color: #777777;
+    height: 335px;
+    padding:20px;
+}
+.site_creation-title {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.site_creation-list li{
+    font-weight: 400;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 22px;
+    list-style: none;
+    color: #ffffff;
+}
+.main_block_left_side{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 30px 0;
+}
+
+.main_body_second_block_footer_text {
+    color: #777777;
+    margin-top:30px;
+}
+.main_body_second_block{
+height: 210px;
+background-color: #dcdcdc;
+width: 765px;
+padding: 20px;
+}
+.main_body_second_block_name{
+font-family: Arial;
+font-size: 14px;
+line-height: 22px;
+font-weight: 700;
+color: #777777;
+}
+.main_body_second_block_list{
+font-weight: 400;
+font-family: Arial;
+font-size: 14px;
+line-height: 22px;
+color: #777777;;
+}
+.main_body_second_block_list li{
+    margin-left:35px;
+}
+
+.nameimg{
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.nameimg img{
+margin-bottom: 20px;
+}
+.two_last_block_main_body{
+    display:flex;
+}
+.general-content{
+    border-bottom:1px solid  #777777;
+    border-top:1px solid  #777777;
+    margin:30px 0;
+}
+.first_last_block {
+    background-color: #dcdcdc;
+    height: 200px;
+    display:inline-flex;
+    width:378.5px;
+}
+.first_last_block, .second_last_block  p{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight:400;
+    color: #777777;
+    padding:20px;
+}
+.second_last_block{
+    background-color: #dcdcdc;
+    height: 200px;
+    margin-left:10px;
+    width:378.5px;
+}
+.left_side_first_block {
+font-family: Arial;
+font-size: 14px;
+line-height: 22px;
+font-weight: 400;
+display: flex;
+color: #777777;
+flex-direction: column;
+margin-right: 20px;
+}
+
+.left_side_second_block {
+font-family: Arial;
+font-size: 14px;
+line-height: 22px;
+font-weight: 400;
+color: #777777;
+margin-right: 20px;
+}
+
+.last_12_13 {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.picture_threeS img {
+width: 184px;
+height: 134px;
+}
+.footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom:20px;
+}
+
+.left_side_first_block {
+    width: 297px;
+    max-height: 180px;
+    background-color: #777777;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.left_side_first_block li {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-right: 91px;
+    color: #ffffff;
+}
+
+.first_list {
+    margin-left: 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.left_side_second_block {
+width: 297px;
+height: 180px;
+background-color: #777777;
+}
+
+.left_side_second_block ul {
+margin-left: 30px;
+margin-top: 5px;
+font-family: Arial;
+font-size: 14px;
+line-height: 20px;
+font-weight: 400;
+color: #ffffff;
+}
+
+.left_side_second_block li {
+margin-bottom: 5px;
+list-style: square;
+}
+
+
+.left_side {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.first_img img {
+width: 122px;
+height: 108px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
